@@ -377,7 +377,7 @@
     if (( $1 )); then
       # Styling for up-to-date Git status.
       local       meta='%109F'  # LightSkyBlue1 foreground
-      local      clean='%24F'   # DeepSkyBlue4 foreground
+      local      clean='%39F'   # DodgerBlue1 foreground
       local   modified='%137F'  # SteelBlue1 foreground
       local  untracked='%109F'   # LightSkyBlue3 foreground
       local conflicted='%196F'  # red foreground
@@ -507,7 +507,7 @@
 
   # These settings are used for repositories other than Git or when gitstatusd fails and
   # Powerlevel10k has to fall back to using vcs_info.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=24
+  typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=39
   typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=109
   typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=137
 
