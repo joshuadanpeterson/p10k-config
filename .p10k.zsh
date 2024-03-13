@@ -378,7 +378,7 @@
       # Styling for up-to-date Git status.
       local       meta='%109F'  # LightSkyBlue3 foreground
       local      clean='%39F'   # DeepSkyBlue1 foreground
-      local   modified='%137F'  # LightSalmon3 foreground
+      local   modified='%173F'  # LightSalmon3 foreground
       local  untracked='%109F'   # LightSkyBlue3 foreground
       local conflicted='%196F'  # red foreground
     else
@@ -509,7 +509,7 @@
   # Powerlevel10k has to fall back to using vcs_info.
   typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=39
   typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=109
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=137
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=173 # LightSalmon3
 
   ##########################[ status: exit code of the last command ]###########################
   # Enable OK_PIPE, ERROR_PIPE and ERROR_SIGNAL status states to allow us to enable, disable and
