@@ -373,13 +373,13 @@
       typeset -g my_git_format=$P9K_CONTENT
       return
     fi
-
+      # Color codes: https://www.ditig.com/publications/256-colors-cheat-sheet
     if (( $1 )); then
       # Styling for up-to-date Git status.
-      local       meta='%250F'  # grey foreground
-      local      clean='%76F'   # green foreground
-      local   modified='%178F'  # yellow foreground
-      local  untracked='%39F'   # blue foreground
+      local       meta='%153F'  # LightSkyBlue1 foreground
+      local      clean='%24F'   # DeepSkyBlue4 foreground
+      local   modified='%81F'  # SteelBlue1 foreground
+      local  untracked='%109F'   # LightSkyBlue3 foreground
       local conflicted='%196F'  # red foreground
     else
       # Styling for incomplete and stale Git status.
@@ -507,9 +507,9 @@
 
   # These settings are used for repositories other than Git or when gitstatusd fails and
   # Powerlevel10k has to fall back to using vcs_info.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=76
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=76
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=178
+  typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=24
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=137
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=153
 
   ##########################[ status: exit code of the last command ]###########################
   # Enable OK_PIPE, ERROR_PIPE and ERROR_SIGNAL status states to allow us to enable, disable and
