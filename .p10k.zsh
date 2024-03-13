@@ -508,8 +508,8 @@
   # These settings are used for repositories other than Git or when gitstatusd fails and
   # Powerlevel10k has to fall back to using vcs_info.
   typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=24
-  typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=137
-  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=153
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=109
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=137
 
   ##########################[ status: exit code of the last command ]###########################
   # Enable OK_PIPE, ERROR_PIPE and ERROR_SIGNAL status states to allow us to enable, disable and
