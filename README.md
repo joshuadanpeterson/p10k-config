@@ -1,6 +1,5 @@
 Here's the updated README for your Powerlevel10k configuration with the GitHub link included:
 
-```markdown
 # Powerlevel10k Configuration README
 
 This README provides an overview of my Powerlevel10k zsh prompt configuration, which was generated using the Powerlevel10k configuration wizard on 2024-03-12 at 18:15 MDT. This configuration is based on the `p10k-classic.zsh` style with a set of customized options to fit your terminal look and functionality.
