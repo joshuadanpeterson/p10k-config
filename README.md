@@ -17,7 +17,7 @@ This README provides an overview of my Powerlevel10k zsh prompt configuration, w
 
 ## Git Status Color Configuration
 
-The Powerlevel10k theme allows for detailed customization of the Git prompt, enabling users to get a quick understanding of their repository status directly from the prompt. Here's a breakdown of the colors you've configured for various Git statuses:
+The Powerlevel10k theme allows for detailed customization of the Git prompt, enabling users to get a quick understanding of their repository status directly from the prompt. Here's a breakdown of the colors I've configured for various Git statuses, including their Xterm Names and Numbers, according to this [cheatsheet](https://www.ditig.com/publications/256-colors-cheat-sheet):
 
 - **Clean Status**: The Git repository is in a clean state, indicating no changes or pending commits. This is typically represented with a green color, symbolizing that all changes are committed and there are no pending files to add or commit. I changed the color to DeepSkyBlue1 (39).
 
