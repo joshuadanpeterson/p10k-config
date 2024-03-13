@@ -376,9 +376,9 @@
       # Color codes: https://www.ditig.com/publications/256-colors-cheat-sheet
     if (( $1 )); then
       # Styling for up-to-date Git status.
-      local       meta='%109F'  # LightSkyBlue1 foreground
-      local      clean='%39F'   # DodgerBlue1 foreground
-      local   modified='%137F'  # SteelBlue1 foreground
+      local       meta='%109F'  # LightSkyBlue3 foreground
+      local      clean='%39F'   # DeepSkyBlue1 foreground
+      local   modified='%137F'  # LightSalmon3 foreground
       local  untracked='%109F'   # LightSkyBlue3 foreground
       local conflicted='%196F'  # red foreground
     else
